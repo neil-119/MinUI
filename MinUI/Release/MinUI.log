@@ -1,0 +1,29 @@
+﻿Build started 12/9/2015 9:48:20 PM.
+     1>Project "C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\MinUI\MinUI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /I"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\glew.1.9.0.1\build\native\../..//build/native/include/" /I"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\freeglut.2.8.1.15\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D HAS_GLEW /D HAS_FREEGLUT /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\neilr_000\downloads\documents\visual studio 2015\projects\minui\minui\mingui.h(79): warning C4273: 'Rocket::Core::Assert': inconsistent dll linkage
+         c:\users\neilr_000\downloads\librocket\librocket-master\include\rocket\core\Debug.h(65): note: see previous definition of 'Assert'
+     1>main.cpp(83): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+     1>main.cpp(495): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+     1>main.cpp(712): warning C4309: 'argument': truncation of constant value
+     1>main.cpp(802): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.exe" /NOLOGO "C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" glu32.lib opengl32.lib SDL2.lib SDL2main.lib SDL2_image.lib RocketCore.lib RocketControls.lib RocketDebugger.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\RenderInterfaceSDL2.obj
+         Release\SystemInterfaceSDL2.obj
+            Creating library C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.lib and object C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.exp
+         Generating code
+         1 of 436 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           15 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+     1>SDL2main.lib(SDL_windows_main.obj) : warning LNK4049: locally defined symbol ___iob_func imported
+     1>SDL2main.lib(SDL_windows_main.obj) : warning LNK4049: locally defined symbol _fprintf imported
+         MinUI.vcxproj -> C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\Release\MinUI.exe
+     1>Done Building Project "C:\Users\neilr_000\Downloads\Documents\Visual Studio 2015\Projects\MinUI\MinUI\MinUI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
